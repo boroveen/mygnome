@@ -1,0 +1,74 @@
+[Desktop Entry]
+X-SnapInstanceName=flameshot
+Name=Flameshot (Snappy Edition)
+Name[zh_CN]=火焰截图 (Snappy Edition)
+GenericName=Screenshot tool
+GenericName[zh_CN]=屏幕截图工具
+GenericName[pl]=Zrzuty ekranu
+GenericName[fr]=Outil de capture d'écran
+GenericName[ja]=スクリーンショットツール
+GenericName[ru]=Создание скриншотов
+GenericName[sk]=Nástroj na zachytávanie obrazovky
+GenericName[sr]=Снимач екрана
+GenericName[uk]=Інструмент скриншотів
+GenericName[es]=Herramienta de captura de pantalla
+Comment=Powerful yet simple to use screenshot software.
+Comment[zh_CN]=强大又易用的屏幕截图软件
+Comment[pl]=Proste w użyciu narzędzie do zrzutów ekranu
+Comment[fr]=Logiciel de capture d'écran puissant et simple d'utilisation.
+Comment[ja]=パワフルで使いやすいスクリーンショットソフトウェア。
+Comment[ru]=Простой и функциональный инструмент для создания скриншотов
+Comment[sk]=Mocný, no tiež jednoduchý softvér na zachytávanie obrazovky.
+Comment[sr]=Једноставан, а моћан алат за снимање екрана
+Comment[uk]=Потужний простий у використанні додаток для створення знімків екрану.
+Comment[es]=Software de captura de pantalla potente y fácil de usar.
+Comment[de]=Schlichte, leistungsstarke Screenshot-Software
+Keywords=flameshot;screenshot;capture;shutter;
+Keywords[zh_CN]=flameshot;screenshot;capture;shutter;截图;屏幕;
+Keywords[fr]=flameshot;capture d'écran;capter;shutter;
+Keywords[ja]=flameshot;screenshot;capture;shutter;スクリーンショット;キャプチャー;
+Keywords[es]=flameshot;screenshot;capture;shutter;captura;
+Keywords[de]=flameshot;screenshot;Bildschirmfoto;Aufnahme;
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/flameshot_flameshot.desktop /snap/bin/flameshot
+Icon=/snap/flameshot/6/usr/share/icons/hicolor/scalable/apps/org.flameshot.Flameshot.svg
+Terminal=false
+Type=Application
+Categories=Graphics;
+StartupNotify=false
+Actions=Configure;Capture;Launcher;
+
+[Desktop Action Configure]
+Name=Configure (Snappy Edition)
+Name[zh_CN]=配置 (Snappy Edition)
+Name[pl]=Konfiguruj (Snappy Edition)
+Name[fr]=Configurer (Snappy Edition)
+Name[ja]=設定 (Snappy Edition)
+Name[ru]=Настройки (Snappy Edition)
+Name[sk]=Nastaviť (Snappy Edition)
+Name[sr]=Подешавања (Snappy Edition)
+Name[uk]=Налаштувати (Snappy Edition)
+Name[es]=Configurar (Snappy Edition)
+Name[de]=Einstellungen (Snappy Edition)
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/flameshot_flameshot.desktop /snap/bin/flameshot config
+
+[Desktop Action Capture]
+Name=Take screenshot (Snappy Edition)
+Name[zh_CN]=进行截图 (Snappy Edition)
+Name[pl]=Zrzut ekranu (Snappy Edition)
+Name[fr]=Prendre une capture d'écran (Snappy Edition)
+Name[ja]=スクリーンショットを撮る (Snappy Edition)
+Name[ru]=Сделать скриншот (Snappy Edition)
+Name[sk]=Zachytiť obrazovku (Snappy Edition)
+Name[sr]=Сними екран (Snappy Edition)
+Name[uk]=Зробити знімок (Snappy Edition)
+Name[es]=Tomar captura de pantalla (Snappy Edition)
+Name[de]=Bildschirmfoto aufnehmen (Snappy Edition)
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/flameshot_flameshot.desktop /snap/bin/flameshot gui --delay 500
+
+[Desktop Action Launcher]
+Name=Open launcher (Snappy Edition)
+Name[de]=Starter öffnen (Snappy Edition)
+Name[sk]=Otvoriť spúšťač (Snappy Edition)
+Name[zh_CN]=打开启动器 (Snappy Edition)
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/flameshot_flameshot.desktop /snap/bin/flameshot launcher
+

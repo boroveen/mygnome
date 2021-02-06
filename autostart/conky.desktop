@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=conky
+Comment=Run conky
+Exec=/home/toblack/tmp/autostart/conky.sh
+Terminal=false
+Type=Application
